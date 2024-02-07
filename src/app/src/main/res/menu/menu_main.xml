@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/option_add_user"
+        android:title="Add new user" />
+
+    <item
+        android:id="@+id/option_add_student"
+        android:title="Add new student" />
+
+    <item
+        android:id="@+id/option_export_student"
+        android:title="Export student list" />
+    
+    <item
+        android:id="@+id/option_logout"
+        android:title="Logout" />
+
+    <item
+        android:id="@+id/option_user"
+        android:title="User"
+        android:icon="@drawable/ic_user"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/option_student"
+        android:title="Student"
+        android:icon="@drawable/ic_student"
+        app:showAsAction="always"/>
+</menu>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Midterm Project</string>
+
+    <!--  Các giá trị trong Spinner genders  -->
+    <string-array name="genders">
+        <item>Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <!--  Các giá trị trong Spinner majors  -->
+    <string-array name="majors">
+        <item>Major</item>
+        <item>Information System</item>
+        <item>Software Engineering</item>
+        <item>Computer Science</item>
+        <item>Computer Networking</item>
+    </string-array>
+
+    <!--  Các giá trị trong Spinner sorting  -->
+    <string-array name="sorting">
+        <item>Default</item>
+        <item>Name A-Z</item>
+        <item>Name Z-A</item>
+        <item>Male first</item>
+        <item>Female first</item>
+    </string-array>
+</resources>

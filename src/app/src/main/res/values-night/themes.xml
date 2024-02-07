@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.StudentManagement" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Customize your dark theme here. -->
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorSecondary">@color/blue</item>
+    </style>
+
+    <!--  Custom Toast Message  -->
+    <style name="errorToast">
+        <item name="stTextColor">@color/white</item>
+        <item name="stColorBackground">@color/red</item>
+        <item name="stFont">@font/roboto_regular</item>
+        <item name="stIconStart">@drawable/ic_error</item>
+    </style>
+
+    <style name="successToast">
+        <item name="stTextColor">@color/white</item>
+        <item name="stColorBackground">@color/green</item>
+        <item name="stFont">@font/roboto_regular</item>
+        <item name="stIconStart">@drawable/ic_success</item>
+    </style>
+</resources>
